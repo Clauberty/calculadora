@@ -1,0 +1,54 @@
+.quadrado{
+    display: flex;
+    position: absolute;
+    bottom: 15%;
+    top: 15%;
+    width: 100%;
+    justify-content: center;
+}
+body{
+    background: black;
+}
+.calculadora{
+    border: double black;
+    position: relative;
+    width: 30%;
+    background-color:rgb(108, 118, 165);
+    height: 100%;
+    border-radius:0.5em;
+    box-shadow: 1em 1em 6em rgb(15, 13, 13) ;
+    
+}
+.tela{
+    margin-top: 5%;
+    position: absolute;
+    right: 1%;
+    left: 1%;
+    height:15%;
+    background-color: aqua;
+    border-radius: 1em;
+    border: solid 0.1em ;
+    box-shadow: 0.1em 0.1em 1em rgb(27, 65, 109);
+}
+.teclas{
+    position: absolute;
+    top: 30%;
+    bottom: 5%;
+    right:5%;
+    left: 1%;
+    justify-content: space-between;
+    justify-items: space-between;
+
+}
+
+.teclas button{
+    flex-grow: 1em;
+    width: 6.5em;
+    height: 3.5em;
+    margin: 0.2em;
+    margin-top:0.2em ;
+    border-radius: 1em;
+    border:solid 1px black;
+    font-weight:800;
+
+}
